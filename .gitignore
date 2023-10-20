@@ -1,0 +1,18 @@
+# https://git-scm.com/docs/gitignore
+# files
+dclm-docs
+**/.DS_Store
+/src/.env
+/ops/bams-dev.env
+/ops/dclm-dev.env
+/ops/dclm-prod.env
+/src/docker-compose.yml
+
+# folders
+_
+/src/node_modules
+move
+.env*
+.flaskenv*
+!.env.project
+!.env.vault
